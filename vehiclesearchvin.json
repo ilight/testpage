@@ -1,0 +1,74 @@
+{
+    "customerVehicleResponse": {
+        "status": "partial",
+        "statusMessage": "Missing Assembly",
+        "serviceHeader": {
+            "requestId": "c1b47901-baa4-4a85-9440-ac5cc124dbbf",
+            "correlationId": "f6fddbe7-512e-4c78-98c7-af7d6a7a0e82",
+            "messageSource": {
+                "system": "",
+                "subSystem": ""
+            }
+        },
+        "responseBody": {
+            "vehicle": {
+                "vin": "JTDKN3DU9A0155592",
+                "year": "2010",
+                "make": "TOYOTA",
+                "model": "PRIUS",
+                "vehicleId": "9112",
+                "trimName": "Hybrid",
+                "trimId": "25610",
+                "imageURL": "https://cdn.discounttire.com/sys-master/images/hf6/h3c/8937545105438/VEHICLE_201811220226_9112_25610.png_dt-vehicle-default-format_dt-vehicle-large",
+                "isDualRearWheel": "false",
+                "acesVehicleID": "74194",
+                "acesBodyType": "8",
+                "acesDriveID": "5",
+                "trims": [
+                    {
+                        "trimName": "Hybrid",
+                        "trimId": "25610",
+                        "imageURL": "https://cdn.discounttire.com/sys-master/images/hf6/h3c/8937545105438/VEHICLE_201811220226_9112_25610.png_dt-vehicle-default-format_dt-vehicle-large",
+                        "isDually": "false",
+                        "assemblies": [
+                            {
+                                "chassisId": "1",
+                                "assemblyId": "A",
+                                "isStaggered": "false",
+                                "description": [
+                                    {
+                                        "crossSection": "195",
+                                        "aspectRatio": "65",
+                                        "diameter": "15",
+                                        "axleType": "B",
+                                        "speedRating": "S",
+                                        "loadRange": "SL",
+                                        "plcardPsi": 35,
+                                        "isStaggerable": "false"
+                                    }
+                                ]
+                            },
+                            {
+                                "chassisId": "1",
+                                "assemblyId": "B",
+                                "isStaggered": "false",
+                                "description": [
+                                    {
+                                        "crossSection": "215",
+                                        "aspectRatio": "45",
+                                        "diameter": "17",
+                                        "axleType": "B",
+                                        "speedRating": "V",
+                                        "loadRange": "SL",
+                                        "plcardPsi": 33,
+                                        "isStaggerable": "false"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
